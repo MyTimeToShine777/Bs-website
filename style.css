@@ -4,8 +4,20 @@ body::before {
     height: 100px;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .news-input {
         width: 50%;
     }
 }
+
+.carousel-item {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* .carousel-item>.item>img {
+    width: 500px;
+    height: 500px;
+} */
